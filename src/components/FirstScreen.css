@@ -1,0 +1,51 @@
+.first-screen {
+    height: 600px;
+    background-color: #2F2F2F;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 80px 0px 80px ;
+}
+
+.div-carousel {
+    grid-column: span 2;
+    margin-left: 4rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content p {
+    color: #01E401;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    margin-bottom: 28px;
+}
+
+h1{
+    color:#E2E2E2;
+    font-family: 'Druk Wide Bold';
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+button {
+    background-color: #01E401;
+    width: 251px;
+    height: 72px;
+    padding: 10px;
+    font-family: 'Druk Wide Bold';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

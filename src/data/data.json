@@ -1,0 +1,32 @@
+{
+    "data": {
+        "about": {
+            "icons": [
+                {"subtitle":"Sustainable development"
+                }, 
+                {"subtitle":"Preservation of identity"
+                }, 
+                {"subtitle":"Post-war recovery plan"
+                }
+            ],
+            "numbers": [
+                {
+                    "number": 2,
+                    "title": "days"
+                },
+                {
+                    "number": 17,
+                    "title": "hours"
+                },
+                {
+                    "number": 8,
+                    "title": "speakers"
+                },
+                {
+                    "number": 8,
+                    "title": "lectures"
+                }
+            ]
+        }
+    }
+}

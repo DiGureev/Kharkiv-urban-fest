@@ -1,0 +1,77 @@
+.popup {
+    width: 1000px;
+    height: 600px;
+    margin:auto;
+    background-color: #2F2F2F;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    z-index: +1;
+    border: 2px solid #747474;
+}
+
+.close {
+    text-align: right;
+    color: #01E401;
+    font-family: Montserrat;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    cursor: pointer;
+}
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container img {
+    width: 322.479px;
+    height: 377.58px;
+    margin-right: 76px;
+    box-shadow: 5px 5px 0px #01E401;
+}
+
+.reg-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup h2 {
+    margin-bottom: 36px;
+    color: #01E401;
+    font-family: 'Druk Wide Bold';
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+}
+
+.popup p {
+    color: #01E401;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+}
+
+.reg-form form input {
+    margin-bottom: 36px;
+    width: 380px;
+    height: 72px;
+    padding: 8px;
+    border: 2px solid #747474;
+    color: #747474;
+    background-color: #2F2F2F;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+}
+
+.registered {
+    
+}

@@ -93,7 +93,7 @@
     width: 30px;
     margin-top: auto;
     margin-bottom: auto;
-  
+    cursor: pointer;
 }
 
 .photo-hidden {

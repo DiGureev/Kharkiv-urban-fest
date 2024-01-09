@@ -7,7 +7,7 @@ const Footer = (props) => {
     return (
         <div className='footer'>
             <div className='footer-links'>
-                <a href='#first-screen'><div className="logo">kharki vurban fest</div></a>
+                <a href='#first-screen'><div className="logo">kharkiv urban fest</div></a>
                 <div>
                     <a href='#about'><p>About Urban Fest</p></a>
                     <br/>

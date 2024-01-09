@@ -1,6 +1,6 @@
 .about-div {
+    width: 100%;
     padding: 50px;
-    height: 100vh;
     color: #2F2F2F;
     font-family: 'Montserrat';
     font-size: 24px;
@@ -41,7 +41,8 @@
 .about-container {
     display: flex;
     width: 1195px;
-    height: 511px;  
+    height: 511px;
+    margin-bottom: 110px;  
 }
 .description{
     width: 518px;

@@ -1,0 +1,65 @@
+.photos-section {
+    height: 670px;
+    margin: 96px 80px 130px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px;
+    justify-content:center;
+}
+
+.photo-header {
+    width: 302px;
+    height: 72px;
+    text-align: center;
+    background-color: #01E401;
+    padding: 12px 29px;
+}
+
+
+.photocard {
+    margin: 24px 24px;
+}
+
+.photocard-1 {
+    grid-row-start: 1;
+    grid-row-end: span 25;
+}
+
+.photocard-2 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-row-end: span 5;
+
+}
+
+.photocard-3 {
+    /* grid-row-start: 26; */
+    grid-column-start: 1;
+    grid-row-end: span 35;
+}
+
+.photocard-4 {
+    grid-row-end: span 52;
+    grid-row-start: 11;
+    grid-column-start: 2;
+
+}
+
+.photocard-5 {
+    grid-row-end: span 25;
+
+}
+
+.photocard-6 {
+    grid-row-end: span 35;
+    grid-row-start: 26;
+    grid-column-start: 3;
+
+}
+
+.photocard-7 {
+    grid-row-start: 6;
+    grid-column-start: 4;
+    grid-row-end: span 62;
+
+}

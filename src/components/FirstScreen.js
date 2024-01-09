@@ -10,7 +10,7 @@ const FirstScreen = (props) => {
         <div className='first-screen'>
             <div className='content'>
             <p>22-23 November | Kharkiv, Ukraine</p>
-            <h1>Kharkiv urban Fest</h1>
+            <h1 id="first-screen">Kharkiv urban Fest</h1>
             <button className='first-screen-btn' onClick={()=> setPopup('')}>REGISTER</button>
             </div>
             <div className='div-carousel'>

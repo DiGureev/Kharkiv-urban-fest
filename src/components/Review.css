@@ -1,0 +1,47 @@
+.review {
+    margin-bottom: 104px;
+}
+
+.review-header {
+    text-align: center;
+    margin: auto;
+    width: 410px;
+    background-color: #01E401;
+    padding: 8px;
+}
+
+.review-cards {
+    margin: 70px 189px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 61px;
+    justify-content: center;
+
+}
+
+.review-card {
+    text-align: center;
+    color: #2F2F2F
+}
+
+.review-card img {
+    box-shadow: 8px 8px 0px #747474;
+    margin-bottom: 16px;
+}
+
+.review-card h3 {
+    font-family: 'Druk Wide Bold';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.review-card p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+}

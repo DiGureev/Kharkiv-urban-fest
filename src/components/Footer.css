@@ -1,0 +1,15 @@
+.footer {
+    background-color: #006300;
+    padding: 51px 89px 55px 89px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p{
+    color: #E2E2E2;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 136.9%;
+    letter-spacing: 1.1px;
+}

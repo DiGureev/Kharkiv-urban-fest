@@ -1,0 +1,58 @@
+.speakers {
+    background-color: #2F2F2F;
+    padding: 66px;
+    margin-bottom: 67px;
+}
+
+.speakers-cards h3 {
+    font-family: 'Druk Wide Bold';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    padding: 16px;
+}
+
+.speakers-cards p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+}
+
+.speaker-header-div {
+    background-color: #01E401;
+    padding: 8px;
+    width: 410px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.speakers-cards {
+    width: 1070px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.speaker {
+    text-align: center;
+    color: #E2E2E2;
+
+}
+
+.speaker-bottom {
+    margin-top: 76px;
+}
+
+.speaker-top {
+    margin-bottom: 76px;
+}
+
+.speaker img {
+    box-shadow: 8px 8px 0px #CACACA;
+
+}

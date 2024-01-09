@@ -1,0 +1,35 @@
+.workshop {
+    height: 656px;
+    background-color: #2F2F2F;
+    padding: 72px;
+    display: flex;
+}
+
+
+.workshop-header {
+    width: 708px;
+    background-color: #01E401;
+    padding: 8px;
+    margin-bottom: 44px;
+    margin-left: -72px;
+    text-align: center;
+}
+
+.workshop-content p {
+    color: #E2E2E2;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    margin-bottom: 28px;
+    width: 628px;
+}
+
+.workshop img {
+    margin-left: 64px;
+    box-shadow: 8px 8px 0px #E2E2E2;
+}
+
+.workshop button {
+    margin-top: 16px;
+}

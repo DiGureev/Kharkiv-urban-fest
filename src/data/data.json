@@ -27,6 +27,85 @@
                     "title": "lectures"
                 }
             ]
-        }
+        },
+        "speakers": [
+            {
+                "name": "Chris Bai",
+                "role": "Senior Color Expert"
+            },
+            {
+                "name": "Julia Vaca",
+                "role": "Visual Content Designer"
+            },
+            {
+                "name": "Harris Reed",
+                "role": "Designer, Educator"
+            },
+            {
+                "name": "Dylan Field",
+                "role": "Founder, CEO at Figma"
+            },
+            {
+                "name": "Katrina Yu",
+                "role": "Creator and Storyteller"
+            },
+            {
+                "name": "Zipeng Zhu",
+                "role": "Designer, Art Director"
+            },
+            {
+                "name": "Adam Smith",
+                "role": "Director at Smith & Lyall"
+            },
+            {
+                "name": "Aaron West",
+                "role": "Educator, Digital Artist"
+            }
+        ],
+        "schedule": [
+            {
+                "time": "9:00 - 10:00",
+                "speaker": "Chris Bai",
+                "description": "Meet&Greet. Urban planning in post-war modernity and its consequences"
+            },
+            {
+                "time": "10:00 - 11:30",
+                "speaker": "Zipeng Zhu",
+                "description": "(Re)forming communities is a response to the challenge: how do we form neighbourhoods"
+            },
+            {
+                "time": "12:00 - 13:00",
+                "speaker": "Harris Reed",
+                "description": "Exploring how participatory community activities support neighbourhood identity"
+            },
+            {
+                "time": "13:00 - 14:30",
+                "speaker": "Katrina Yu",
+                "description": "A discussion “Old center – new engagements” and other project ideas in Kharkiv center"
+            },
+            {
+                "time": "15:00 - 16:00",
+                "speaker": "Dylan Field",
+                "description": "Home as a shelter – architecture as a catalyst of social processes"
+            }
+        ],
+        "review": [
+            {
+                "name": "Laura lime",
+                "review": "I visited this festival last year and I’ve never been so inspired"
+            },
+            {
+                "name": "Oliver Back",
+                "review": "Even though I’m a web designer, I gained a lot of knowledge about urbanism"
+            },
+            {
+                "name": "Yana Kieu",
+                "review": "Such a great place for networking! So many designers and urbanists"
+            },
+            {
+                "name": "valeria",
+                "review": "I will definitely come here again next year with my colleagues"
+            }
+        ]
     }
 }

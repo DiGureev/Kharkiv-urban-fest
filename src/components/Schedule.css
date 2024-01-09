@@ -1,0 +1,113 @@
+.schedule {
+    margin-bottom: 61px;
+}
+
+.schedule-header p {
+    margin-left: 83px;
+    margin-top: 20px;
+    margin-bottom: 36px;
+    width: 500px;
+    color: #2F2F2F;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+}
+
+.schedule-container {
+    margin: 30px 83px 117px 83px ;
+    display: flex;
+    height: 765px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    height: 800px;
+    z-index: -1;
+    left: 77px;
+
+}
+
+.lectures {
+    width: 737px;
+    padding-top: 61px;
+    padding-bottom: 61px;
+}
+
+.lecture-item {
+    display: grid;
+    grid-template-columns: 190px 520px;
+    gap: 28px;
+}
+
+.time {
+    color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    font-family: 'Druk Wide Bold';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+    border: 5px solid #000;
+    background: #FFF;
+    margin-bottom: 80px;
+}
+
+.lecture-details h3, .gallery-content h3{
+    color:  #2F2F2F;
+    font-family: 'Druk Wide Bold';
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.54px;
+    text-transform: uppercase;
+}
+
+.lecture-details p {
+    color: #2F2F2F;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
+.galleries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.gallery-carousel {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    gap: 30px;
+    margin-bottom: 16px;
+}
+
+.arrows {
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+}
+
+.photo-hidden {
+    display: none;
+}
+
+.gallery-content {
+    text-align: center;
+}
+
+.gallery-content p {
+    color: var(--black, #2F2F2F);
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+}

@@ -1,0 +1,39 @@
+.register {
+    min-height: 600px;
+    text-align: center;
+    background-color: #2F2F2F;
+    padding: 52px;
+}
+
+.register h2 {
+    text-align: left;
+    margin-bottom: 36px;
+    color: #01E401;
+    font-family: 'Druk Wide Bold';
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+}
+
+.register p {
+    color: #01E401;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+}
+
+.reg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-container img {
+    width: 511px;
+    height: 600px;
+    margin-right: 140px;
+    box-shadow: 5px 5px 0px #01E401;
+}

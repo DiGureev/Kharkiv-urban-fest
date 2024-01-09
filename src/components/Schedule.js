@@ -44,7 +44,7 @@ const Schedule = (props) => {
                 <div className='arrow'><img src={arrow}/></div>
                 <div className='lectures'>
                     {data.data.schedule.map((item, idx)=> {
-                        return <div className='lecture-item'>
+                        return <div className='lecture-item' key={idx}>
                             <p className='time'>{item.time}</p>
                             <div className='lecture-details'>
                                 <h3>{item.speaker}</h3>
@@ -59,7 +59,7 @@ const Schedule = (props) => {
                             <img src={arrowLeft} className='arrows' onClick={()=>clickPrev('screen1')}/>
                             <div className='photos'>
                                 {airImg.map((item, idx) => {
-                                    return <img src={item} className={screen1===idx ? 'photo' : 'photo photo-hidden'}/>
+                                    return <img src={item} className={screen1===idx ? 'photo' : 'photo photo-hidden'} key={idx}/>
                                 })}
                             </div>
                             <img src={arrowRight} className='arrows' onClick={()=>clickNext('screen1')}/>

@@ -20,8 +20,6 @@ function App() {
  const [popup, setPopup] = useState('none')
  const [registered, setReg] = useState(false)
 
- console.log(data)
-
   return (
     <AppContext.Provider value={{popup, setPopup, registered, setReg, data}}>
     <div className="App">

@@ -1,5 +1,5 @@
 .first-screen {
-    height: 600px;
+    height: 100vh;
     background-color: #2F2F2F;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -48,4 +48,37 @@ button {
     letter-spacing: 1.1px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .first-screen {
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .div-carousel {
+        display: none;
+    }
+
+    .content p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.32px;
+        margin-bottom: 8px;
+    }
+    
+    h1{
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+    
+    button {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
 }

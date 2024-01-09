@@ -1,15 +1,18 @@
 import './PopUp.css';
 import img from '../img/popup.png';
 import done from '../img/final-popup.png'
-import { useContext } from 'react';
-import App, { AppContext } from '../App.js';
+import { useContext, useState } from 'react';
+import { AppContext } from '../App.js';
 
 const PopUp = (props) => {
     const {popup, setPopup, registered, setReg} = useContext(AppContext)
+    const [msg, setMsg] = useState('')
 
     const handleClick = (e) => {
         e.preventDefault()
-        setReg(true)
+        console.log(e.target)
+        console.log(e.target.name)
+        // setReg(true)
     }
 
     if (registered) {
@@ -32,10 +35,11 @@ const PopUp = (props) => {
                 <img src={img}/>
                 <div className='reg-form'>
                     <h2>Register</h2>
-                    <form>
-                        <input type='text' placeholder='Full Name' />
-                        <input type='email' placeholder='Email'/>
-                        <button onClick={(e)=> handleClick(e)}>Continue</button>
+                    <form onSubmit={(e)=> handleClick(e)}>
+                        <input type='text' placeholder='Full Name' name="name"/>
+                        <input type='email' placeholder='Email' name="email"/>
+                        <button>Continue</button>
+                        <p>{msg}</p>
                     </form>
                 </div>
             </div>

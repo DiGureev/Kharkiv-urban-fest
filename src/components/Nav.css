@@ -1,7 +1,7 @@
 .nav-bar{
-    width: 100%;
+    width: 100vw;
     background-color: #006300;
-    height: 142px;
+    height: 9rem;
     padding: 0px 89px 0px 89px;
     display: flex;
 }
@@ -9,7 +9,7 @@
 .logo {
     color: #01E401;
     font-family: 'Druk Wide Bold';
-    font-size: 20px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -33,3 +33,28 @@
     letter-spacing: 1.32px;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        padding: 0px 10px;
+        height: 6rem;
+    }
+
+    #link-about, #link-speakers, #link-schedule, #link-workshop {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+        padding: 12px 0px 12px 0px;
+        width: 80%;
+        margin-right: 15px;
+    }
+
+    .nav-links {
+        justify-content: flex-start;
+    }
+  }

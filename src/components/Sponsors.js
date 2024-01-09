@@ -15,6 +15,7 @@ const Sponsors = (props) => {
         <div className='sponsors' id='sponsors'>
             <div className='sponsors-header'><h2>Sponsors</h2></div>
             <table className='sponsors-table'>
+                <tbody>
                 <tr className='sponsors-table-row'>
                     <td className='sponsors-table-column'><img src={sponsor1} className='logo-sponsors'/></td>
                     <td className='sponsors-table-column'><img src={sponsor2} className='logo-sponsors'/></td>
@@ -29,6 +30,7 @@ const Sponsors = (props) => {
                     <td className='sponsors-table-column'><img src={sponsor9} className='logo-sponsors'/></td>
                     <td className='sponsors-table-column'><img src={sponsor10} className='logo-sponsors'/></td>
                 </tr>
+                </tbody>
             </table>
         </div>
     )

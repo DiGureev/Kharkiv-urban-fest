@@ -74,3 +74,9 @@
     letter-spacing: 1.32px;
 }
 
+.msg {
+    text-align: left !important;
+    margin-top: 20px;
+    height: 20px;
+}
+

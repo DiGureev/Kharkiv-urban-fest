@@ -75,7 +75,7 @@ const Schedule = (props) => {
                             <img src={arrowLeft} className='arrows' onClick={()=>clickPrev('screen2')}/>
                             <div className='photos'>
                                 {haloImg.map((item, idx) => {
-                                    return <img src={item} className={screen2===idx ? 'photo' : 'photo photo-hidden'}/>
+                                    return <img src={item} className={screen2===idx ? 'photo' : 'photo photo-hidden'} key={idx}/>
                                 })}
                             </div>
                             <img src={arrowRight} className='arrows' onClick={()=>clickNext('screen2')}/>

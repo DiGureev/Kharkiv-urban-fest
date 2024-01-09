@@ -1,15 +1,23 @@
 import './Register.css';
 import img from '../img/popup.png';
 import done from '../img/final-popup.png'
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { AppContext } from '../App.js';
 
 const Register = (props) => {
     const {popup, setPopup, registered, setReg} = useContext(AppContext)
+    const [msg, setMsg] = useState('')
 
     const handleClick = (e) => {
+        setMsg('')
         e.preventDefault()
-        setReg(true)
+        if (e.target.name.value === ''){
+            setMsg('Please, enter your name')
+        } else if (e.target.email.value === '' || e.target.email.value.includes('@') === false) {
+            setMsg('Please, enter valid email address')
+        } else {
+            setReg(true)
+        }
     }
 
     if (registered) {
@@ -30,10 +38,11 @@ const Register = (props) => {
                 <img src={img}/>
                 <div className='reg-form'>
                     <h2>Register</h2>
-                    <form>
-                        <input type='text' placeholder='Full Name' />
-                        <input type='email' placeholder='Email'/>
-                        <button onClick={(e)=> handleClick(e)}>Continue</button>
+                    <form onSubmit={(e)=> handleClick(e)}>
+                        <input type='text' placeholder='Full Name' name="name"/>
+                        <input type='email' placeholder='Email' name="email"/>
+                        <button>Continue</button>
+                        <p className='msg'>{msg}</p>
                     </form>
                 </div>
             </div>

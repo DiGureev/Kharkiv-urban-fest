@@ -6,8 +6,8 @@ I was inspired by the web design of my friend [Valeria Gershannik](https://www.b
 This is a landing page with a call to action button to register users for the Kharkiv City Festival. 
 
 ## Stack
-*Response
-*CSS
+* React
+* CSS
 
 Experimentally, I create each screen as an independent component with its own style file. 
 

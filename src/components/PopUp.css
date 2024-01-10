@@ -83,6 +83,7 @@
 @media only screen and (max-width: 600px) {
     .popup {
         width: 85vw;
+        padding: 20px;
         height: 780px;
         margin-left: -45vw;
         margin-top: -350px;
@@ -101,9 +102,9 @@
     }
 
     .reg-form-popup form input{
-            margin-bottom: 30px;
-            width: 100%;
-            height: auto;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
 
     }
 
@@ -125,7 +126,7 @@
         height: 500px;
         margin: 0px;
         position: absolute;
-        top: 300px;
+        top: 200px;
         left: 45vw;
         margin-left: -38vw;
 

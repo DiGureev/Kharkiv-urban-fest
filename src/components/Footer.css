@@ -29,3 +29,28 @@
 .create a {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        background-color: #006300;
+        padding: 51px 89px 55px 89px ;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer p{
+        font-size: 15px;
+    }
+    .create {
+        margin-top: 30px;
+    }
+    
+    .create p {
+        font-size: 13px;
+    }
+      
+}

@@ -56,3 +56,37 @@
     box-shadow: 8px 8px 0px #CACACA;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .speakers {
+        padding: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .speaker-header-div {
+        width: auto !important;
+        height: auto;
+        margin-bottom: 20px !important;
+        margin-right: 0px !important;
+    }
+
+    .speakers-cards {
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .speaker-bottom {
+        margin-top: 0px;
+    }
+    
+    .speaker-top {
+        margin-bottom: 0px;
+    }
+
+    .speaker {
+        margin-bottom: 20px;
+    }
+}

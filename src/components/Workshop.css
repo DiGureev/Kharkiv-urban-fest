@@ -33,3 +33,38 @@
 .workshop button {
     margin-top: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+    .workshop {
+        width: 100vw;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workshop-header {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+        text-align: center;
+    }
+
+    .workshop-header h2 {
+        font-size: 30px;
+    }
+
+    .workshop-content p {
+        width: 100%;
+    }
+    
+    .workshop img {
+        margin-left: 0px;
+    }
+
+    .workshop button {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}

@@ -96,8 +96,12 @@
         align-items: center;
     }
     .icon {
-        margin-bottom: 20px;
+        margin: 10px auto;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .icon img {
@@ -107,6 +111,52 @@
     .subtitle {
         margin-top: 68px;
         width: 100px;
+    }
+
+    .about-container {
+        width: 90vw;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 40px;  
+    }
+
+    .description{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .about-container img {
+        width: 80%;
+        height: auto;
+        box-shadow: 5px 5px 0px #01E401;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .header-div {
+        width: auto !important;
+        height: auto;
+        margin-bottom: 20px !important;
+    }
+
+    .numbers {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: space-between;
+    }
+    
+    .digit {
+        font-size: 26px;
+       height: auto;
+       margin-bottom: 10px;
+    }
+
+    .number {
+        width: 40%;
+        text-align: center;
+        margin-bottom: 20px;
     }
   
 }

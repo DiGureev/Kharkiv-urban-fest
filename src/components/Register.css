@@ -37,3 +37,38 @@
     margin-right: 140px;
     box-shadow: 5px 5px 0px #01E401;
 }
+
+@media only screen and (max-width: 600px) {
+    .register {
+        width: 100vw;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .reg-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px !important;
+    }
+
+    .done-reg {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .done-reg h2 {
+        font-size: 25px !important;
+        margin-top: 0px;
+    }
+
+    .reg-container img {
+        width: 80%;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    
+}

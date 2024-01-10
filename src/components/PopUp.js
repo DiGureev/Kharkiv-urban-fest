@@ -27,9 +27,9 @@ const PopUp = (props) => {
 
     if (registered) {
         return (
-        <div className='popup registered' style={{display: popup, backgroundImage: `url('${done}')`, backgroundRepeat: 'no-repeat'}}>
+        <div className='popup registered registered-popup' style={{display: popup, backgroundImage: `url('${done}')`, backgroundRepeat: 'no-repeat'}}>
             <div className='close' onClick={handleClose}>Close X</div>
-            <div className='popup-container' style={{marginLeft: '400px', marginTop:'100px'}}>
+            <div className='popup-container popup-container-done' style={{marginLeft: '400px', marginTop:'100px'}}>
                 <div className='done' style={{width: '500px', textAlign:'center'}}>
                     <h2>You have been registered!</h2>
                     <p>We'll see you at the festival</p>
@@ -43,7 +43,7 @@ const PopUp = (props) => {
             <div className='close' onClick={handleClose}>Close X</div>
             <div className='popup-container'>
                 <img src={img}/>
-                <div className='reg-form'>
+                <div className='reg-form reg-form-popup'>
                     <h2>Register</h2>
                     <form onSubmit={(e)=> handleClick(e)}>
                         <input type='text' placeholder='Full Name' name="name"/>

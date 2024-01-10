@@ -22,9 +22,9 @@ const Register = (props) => {
 
     if (registered) {
         return (
-        <div className='register registered' style={{backgroundImage: `url('${done}')`, backgroundRepeat: 'no-repeat', backgroundColor:'#FAFBFD'}}>
-            <div className='reg-container' style={{marginLeft: '400px', marginTop:'100px'}}>
-                <div className='done' style={{width: '500px', textAlign:'center'}}>
+        <div className='register registered -reg' style={{backgroundImage: `url('${done}')`, backgroundRepeat: 'no-repeat', backgroundColor:'#FAFBFD'}}>
+            <div className='reg-container reg-container-reg' style={{marginLeft: '400px', marginTop:'100px'}}>
+                <div className='done done-reg' style={{width: '500px', textAlign:'center'}}>
                     <h2>You have been registered!</h2>
                     <p>We'll see you at the festival</p>
                 </div>

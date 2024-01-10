@@ -80,3 +80,54 @@
     height: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .popup {
+        width: 85vw;
+        height: 780px;
+        margin-left: -45vw;
+        margin-top: -350px;
+    }
+
+    .popup-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .popup-container img {
+        width: 80%;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .reg-form-popup form input{
+            margin-bottom: 30px;
+            width: 100%;
+            height: auto;
+
+    }
+
+    .popup-container-done {
+        margin-left: 0px !important;
+        margin-top:0px !important;
+    }
+
+    .done {
+        width: 80% !important;
+    }
+
+    .done h2 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .registered-popup {
+        height: 500px;
+        margin: 0px;
+        position: absolute;
+        top: 300px;
+        left: 45vw;
+        margin-left: -38vw;
+
+    }
+}

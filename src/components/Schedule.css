@@ -111,3 +111,90 @@
     font-weight: 400;
     letter-spacing: 1.32px;
 }
+
+@media only screen and (max-width: 600px) {
+    .schedule {
+        width: 100vw;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .schedule-header {
+        width: 100% !important;
+    }
+
+    .schedule-header p {
+        margin: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .arrow {
+        height: 600px;
+        left: 27px;
+    }
+
+    .arrow img {
+        height: 100%;
+    }
+
+    .lectures {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .lecture-item {
+        display: flex;
+    }
+
+    .schedule-container {
+        margin: 0px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+    }
+
+    .time {
+        width: 100px !important;
+        height: 80px !important;
+        font-size: 14px;
+        border: 2px solid #000;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+
+    .lecture-details h3, .gallery-content h3{
+        font-size: 18px;
+    }
+    
+    .lecture-details p {
+        font-size: 15px;
+    }
+
+    .galleries {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .gallery-carousel {
+        width: 100% !important;
+        display: grid;
+        grid-template-columns: 1fr 80% 1fr;
+        gap: 10px;
+        margin-bottom: 16px;
+    }
+
+    .photos img {
+        width: 100%;
+    }
+
+    .gallery-content p {
+        font-size: 15px;
+    }
+
+    .gallery-content {
+        margin-bottom: 20px;
+    }
+}

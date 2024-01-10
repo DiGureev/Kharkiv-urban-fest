@@ -1,5 +1,5 @@
 # Onepage website for Kharkiv urban fest
-I was inspired by the webdesign of my friend (Valeria Gershannik)[https://www.behance.net/gallery/188223681/Kharkiv-Urban-Festival-Landing-Page], and want to make this project live. 
+I was inspired by the webdesign of my friend [Valeria Gershannik](https://www.behance.net/gallery/188223681/Kharkiv-Urban-Festival-Landing-Page), and want to make this project live. 
 
 This is a landing page with call to action button to registrate users for the Kharkiv urban festival. 
 
